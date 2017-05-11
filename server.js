@@ -10,6 +10,7 @@ var io = require('socket.io')(server);
 // Static assets
 var routing = {
   '/socket.io.js': './node_modules/socket.io-client/dist/socket.io.js',
+  '/socket.io.js.map': './node_modules/socket.io-client/dist/socket.io.js.map',
   '/jquery.min.js': './node_modules/jquery/dist/jquery.min.js',
   '/styles.css': './styles.css',
   '/client.js': './client.js'
