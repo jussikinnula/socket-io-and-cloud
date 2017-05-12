@@ -1,0 +1,39 @@
+{
+  "name": "socket-io-and-cloud",
+  "version": "0.0.1",
+  "description": "Socket.io & Cloud",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=7",
+    "npm": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jussikinnula/socket-io-and-cloud.git"
+  },
+  "keywords": [
+    "socket.io",
+    "socket.io-adapter",
+    "redis",
+    "heroku"
+  ],
+  "author": "Jussi Kinnula <jussi.kinnula@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jussikinnula/socket-io-and-cloud/issues"
+  },
+  "homepage": "https://github.com/jussikinnula/socket-io-and-cloud#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

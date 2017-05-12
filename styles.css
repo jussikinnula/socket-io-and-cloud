@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  border-top: 1px solid black;
+  background-color: #FF9900;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form input {
+  padding: 0.25em;
+}
+
+#nickname, #message {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+
+#nickname {
+  font-size: 1.2em;
+  width: 4em;
+}
+
+#message {
+  font-size: 1.2em;
+  width: calc(100% - 11.5em);
+}
+
+form button {
+  font-size: 1em;
+  width: 4em;
+  margin: 0;
+  height: 2.3em;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 0.5em;
+}
+
+#messages li:nth-child(even) {
+  background-color: #CCFFCC;
+}
+
+#messages li:nth-child(odd) {
+  background-color: #FFCCFF;
+}
+
+#messages li span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+
+#messages li span.dyno, #messages li span.time {
+  color: rgba(128, 0, 0, 0.5);
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  #messages li span.dyno, #messages li span.time {
+    width: calc(50% - 0.5em);
+  }
+}
+
+#messages li span.nick {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+}
+
+#messages li span.message {
+  font-size: 1em;
+}
