@@ -2,6 +2,8 @@
 
 This is the code part used in my talk.
 
+Talk slides can be found at: https://jussikinnula.github.io/socket-io-and-clouds-wunderdog-tekki-20170512
+
 ## Deploy to Heroku
 
 ```
