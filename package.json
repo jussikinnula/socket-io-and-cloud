@@ -28,11 +28,11 @@
   },
   "homepage": "https://github.com/jussikinnula/socket-io-and-cloud#readme",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.15.3",
     "jquery": "^3.2.1",
     "moment": "^2.18.1",
     "socket.io": "^2.0.1",
-    "socket.io-redis": "^5.0.0"
+    "socket.io-redis": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
